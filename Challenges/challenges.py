@@ -6,7 +6,7 @@
 ######################################
 
 
-
+# Ajboi6969
 def is_pal(word): 
     """
     >>> is_pal("cars")
@@ -24,7 +24,7 @@ def is_pal(word):
 
 
 
-def add_evens(nums):
+def add_evens(nums): # whackalenso
     """
     >>> add_evens([5])
     5
@@ -58,7 +58,7 @@ def add_evens_followup(nums):
 
 
 
-def can_cheese(small: int, big: int, goal: int) -> bool: # Nigel
+def can_cheese(small: int, big: int, goal: int) -> bool: # whackalenso
     """
     >>> can_cheese(3, 1, 8)
     True
@@ -136,7 +136,7 @@ def shortest_path(graph: dict, A: int, B: int) -> int:
 
 
 
-def longest_uppercase(input, k):
+def longest_uppercase(input, k): # whackalenso
     """
     >>> longest_uppercase("aaabbcajnnaddgfjn", 2)
     5
@@ -157,7 +157,7 @@ def longest_uppercase(input, k):
 
 
 
-def max_tastiness(ice_creams):
+def max_tastiness(ice_creams): # whackalenso
     """
     >>> round(max_tastiness([(4,.9), (6,.5)]), 5)
     9.4
