@@ -1,2 +1,2 @@
-def is_pal(word): 
-    pass
+def is_pal(word):
+    return word[::-1] == word
