@@ -1,2 +1,2 @@
-def longest_uppercase(input, k): # whackalenso
+def longest_uppercase(input, k):
     pass
