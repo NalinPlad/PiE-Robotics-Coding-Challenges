@@ -56,11 +56,11 @@ False
 
 # add_evens_followup
 """
->>> add_evens(5)
+>>> add_evens_followup(5)
 5
->>> add_evens(12345)
+>>> add_evens_followup(12345)
 9
->>> add_evens(4302])
+>>> add_evens_followup(4302)
 5
 """
 
@@ -92,12 +92,11 @@ True
 
 # can_cheese_followup
 """
-More test cases to come...
->>> can_cheese(3, 3, 5, 5, 27)
+>>> can_cheese_followup(4, 3, 5, 5, 27)
 True
->>> can_cheese(3, 3, 5, 5, 28)
+>>> can_cheese_followup(3, 3, 5, 5, 28)
 True
->>> can_cheese(3, 3, 5, 5, 32)
+>>> can_cheese_followup(3, 3, 5, 5, 32)
 False
 """
     
@@ -135,11 +134,11 @@ False
 """
 >>> shortest_path({1:[2], 2:[]}, 1,2)
 1
->>> shortest_path({1: [2, 3], 2: [1, 3, 8], 3: [1, 2, 4, 8], 5: [3, 6], 6: [5, 7], 7: [6, 8], 8: [2, 7]}, 1, 1)
+>>> shortest_path({1: [2, 3], 2: [1, 3, 8], 3: [1, 2, 4, 8], 4: [], 5: [3, 6], 6: [5, 7], 7: [6, 8], 8: [2, 7]}, 1, 1)
 0
->>> shortest_path({1: [2, 3], 2: [1, 3, 8], 3: [1, 2, 4, 8], 5: [3, 6], 6: [5, 7], 7: [6, 8], 8: [2, 7]}, 1, 8)
+>>> shortest_path({1: [2, 3], 2: [1, 3, 8], 3: [1, 2, 4, 8], 4: [], 5: [3, 6], 6: [5, 7], 7: [6, 8], 8: [2, 7]}, 1, 8)
 2
->>> shortest_path({1: [2, 3], 2: [1, 3, 8], 3: [1, 2, 4, 8], 5: [3, 6], 6: [5, 7], 7: [6, 8], 8: [2, 7]}, 4, 7)
+>>> shortest_path({1: [2, 3], 2: [1, 3, 8], 3: [1, 2, 4, 8], 4: [5], 5: [3, 6], 6: [5, 7], 7: [4, 6, 8], 8: [2, 7]}, 4, 7)
 3
 """
 
@@ -152,7 +151,7 @@ False
 >>> longest_uppercase("aaabbbcajnnnnaddgfjn", 1)
 4
 >>> longest_uppercase("aaabbbcajnnnnadddgfjn", 4)
-9
+10
 """
 
 
