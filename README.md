@@ -13,7 +13,7 @@ A collection [12] of small python scripts to solve challenges from the 2022 PiE 
 
 **Level 3**
 - [space_acquaintance](Challenges/modules/space_acquaintance.py)
-- [shortest_path](Challenges/modules/shortest_path.py) - Nigel (Whackalenso) ✅ (may need review later, I don't trust the tests)
+- [shortest_path](Challenges/modules/shortest_path.py) - Nigel (Whackalenso) ✅
 - [longest_uppercase](Challenges/modules/longest_uppercase.py) - Matthew
 
 **Extras**
