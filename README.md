@@ -8,7 +8,7 @@ A collection [12] of small python scripts to solve challenges from the 2022 PiE 
 
 **Level 2**
 - [can_cheese](Challenges/modules/can_cheese.py) - Nigel (Whackalenso) ✅
-- [can_cheese_followup](Challenges/modules/can_cheese_followup.py)
+- [can_cheese_followup](Challenges/modules/can_cheese_followup.py) - Nigel (Whackalenso)
 - [min_of_maxes](Challenges/modules/min_of_maxes.py)
 
 **Level 3**
