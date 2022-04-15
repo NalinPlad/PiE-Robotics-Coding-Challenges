@@ -16,7 +16,6 @@ def space_acquaintance(space_from, space_to ):
           acquaintances.append(space_from[j])
         elif space_from[j] == Astronuat2:
           acquaintances.append(space_to[j])
-      print(acquaintances)
       for k in acquaintances:
         if Astronuat3 == k:
           pass
@@ -25,21 +24,13 @@ def space_acquaintance(space_from, space_to ):
           for j in range(len(space_from)):
             if Trio_acquaintances.count(j) > 0 :
               pass
-            elif space_to[j] == Astronuat1:
+            elif space_to[j] == Astronuat1 or space_to[j] == Astronuat2 or space_to[j] == Astronuat3:
               Trio_acquaintances.append(space_to[j])
-            elif space_to[j] == Astronuat2:
+            elif space_from[j] == Astronuat1 or space_from[j] == Astronuat2 or space_from[j] == Astronuat3:
               Trio_acquaintances.append(space_to[j])
-            elif space_to[j] == Astronuat3:
-              Trio_acquaintances.append(space_to[j])
-            elif space_from[j] == Astronuat1:
-              Trio_acquaintances.append(space_to[j])
-            elif space_from[j] == Astronuat2:
-              Trio_acquaintances.append(space_to[j])
-            elif space_from[j] == Astronuat3:
-              Trio_acquaintances.append(space_to[j])
-      if min_Acquaintance_sum == None: 
-        min_Acquaintance_sum = len(Trio_acquaintances)
-      elif min_Acquaintance_sum > len(Trio_acquaintances);
-        min_Acquaintance_sum = len(Trio_acquaintances)
+          if min_Acquaintance_sum == None: 
+            min_Acquaintance_sum = len(Trio_acquaintances)
+          elif min_Acquaintance_sum > len(Trio_acquaintances):
+            min_Acquaintance_sum = len(Trio_acquaintances)
               
   return min_Acquaintance_sum
