@@ -4,7 +4,7 @@ A collection [12] of small python scripts to solve challenges from the 2022 PiE 
 **Level 1**
 - [is_pal](Challenges/modules/is_pal.py) - Ajith ✅
 - [add_evens](Challenges/modules/add_evens.py) - Nigel (Whackalenso) ✅
-- [add_evens_followup](Challenges/modules/add_evens_followup.py) Abe
+- [add_evens_followup](Challenges/modules/add_evens_followup.py) Abe ✅
 
 **Level 2**
 - [can_cheese](Challenges/modules/can_cheese.py) - Nigel (Whackalenso) ✅
