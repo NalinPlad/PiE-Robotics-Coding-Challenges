@@ -1,5 +1,5 @@
 # PiE-Robotics-Coding-Challenges
-A collection [12] of small python scripts to solve challenges from the 2022 PiE robotics competition
+A collection of [12] small python scripts to solve challenges from the 2022 PiE robotics competition
 
 **Level 1**
 - [is_pal](Challenges/modules/is_pal.py) - Ajith ✅
